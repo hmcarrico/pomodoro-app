@@ -1,0 +1,11 @@
+.stats-container  {
+    display: flex;
+}
+.stats-container div {
+    background: #090C02;
+    color: #E4572E;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
