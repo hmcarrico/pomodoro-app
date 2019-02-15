@@ -27,7 +27,7 @@ class Timer extends Component {
                     this.setState({time: 5, break2: true, break: false})
                 }
                 else if(this.state.time === 0 && this.state.isOn === false){
-                    this.setState({time: 3, break: true, break2: false})
+                    this.setState({time: 300, break: true, break2: false})
                 }
             }, 1000);
         } else if(this.state.isOn === false){
